@@ -1,0 +1,3 @@
+WHAT I LEARNT TODAY: How to merge and partition local drives on Desktops and PCs using Disk Management. Learnt how to create a virtualistion home lab and all the different use cases for homelabs. learnt about docker and raspberry pi as a place for containers and a processor respectively, learnt about the importance of linux and script automation using python/bash for both homelab and real life scenarios, learnt about the concept of deploying virtual machines to cloud providers such as AWS and Azure.
+
+Tags: #DiskManagement #DrivePartitioning #Virtualization #HomeLab #Docker #RaspberryPi #Linux #Automation #PythonScripting #BashScripting #CloudComputing #AWS #Azure #VirtualMachines
