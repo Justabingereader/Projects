@@ -1,2 +1,9 @@
-# SACL
-A Standard Access Control list simulation through Cisco packet tracer, it models a simplified network architecture with routers, switches and user devices such as PCs, Access to the server is permitted for some devices and restricted from others, there are also restrictions between devices in the network to restrict communication between specific devices while permitting communication for the rest of the devices. Images are provided to better understand the process through visual context.
+Network Device Communication Restrictions
+Implemented standard ACLs for simplified network architecture with granular device-level access control.
+Features:
+
+Server access restrictions based on device authorization
+Inter-device communication controls
+Visual network topology documentation
+
+Platform: Cisco Packet Tracer
