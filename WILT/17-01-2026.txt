@@ -1,0 +1,3 @@
+What I Learnt Today: Learnt about the roles of repeaters, hubs and bridges, learnt about switches as a multiport combination of hubs and bridges, learnt about routers, default gateway and the routing table, learnt about the OSI model as general rules that govern network communication, learnt about layer 2 as a hop-hop delivery mechanism, layer 3 as an end-end delivery mechanism, layer 4 as a service-service delivery mechanism.
+
+Tags: #NetworkDevices #Repeaters #Hubs #Bridges #Switches #Routers #DefaultGateway #RoutingTable #OSImodel #Layer2 #Layer3 #Layer4 #HopToHop #EndToEnd #ServiceToService #NetworkArchitecture #NetworkingFundamentals
