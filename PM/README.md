@@ -24,9 +24,13 @@ Duplicate entry prevention
 
 Key Commands:
 bashpython config.py make          # Initial setup with master password
+
 python pm.py add -s <site> -u <url> -e <email> -l <username>
+
 python pm.py e                 # List all entries (passwords hidden)
+
 python pm.py e -s <entry>      # View specific entry
+
 python pm.py e -s <entry> --copy  # Copy password to clipboard
 
 Use Case: Centralized credential management for individuals and organizations requiring secure password storage
