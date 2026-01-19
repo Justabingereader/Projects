@@ -1,2 +1,10 @@
-# EACL
-A Simplified Network Architecture model that makes use of the extended access list to restrict access between network devices whilst allowing permission for selected devices, like denying access to communication between the two PCs and a PC and the server, on the other hand allowing the other PC FTP access, the purpose of this simulation was to practilaize a real life network architecture and how the administrators may allow and deny access to certain services on the network based on needs and requirements of the organisation, images were presented alongside the main packet to get a better visual understanding and context. 
+Extended Access Control Lists (EACL)
+Granular Network Access Control Implementation
+Designed network architecture implementing extended ACLs to restrict inter-device communication while maintaining selective service access.
+Technical Implementation:
+
+Configured ACLs denying PC-to-PC and PC-to-server communication
+Enabled selective FTP access for authorized devices
+Simulated real-world organizational access control requirements
+
+Use Case: Enterprise network segmentation for security and compliance
