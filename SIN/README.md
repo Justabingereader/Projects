@@ -1,3 +1,14 @@
-# SIN
-A Secured inter-router network topology with switch integration, configured encrypted passwords, and verified inter-network connectivity using routing protocols and access security measures.
-the password for the console is : Console, the password for remote connections is : vty, the password for the switches are : switch, and the password for the routers are : router.
+Encrypted Network Infrastructure
+
+Designed secure multi-router topology with encryption and verified connectivity.
+Security Features:
+
+Encrypted password configuration for all network devices
+
+Console, VTY, switch, and router password protection
+
+Inter-network connectivity verification
+
+Routing protocol integration with access security
+
+Access Credentials: Documented in project README
