@@ -1,5 +1,5 @@
-Extended Access Control Lists (EACL)
 Granular Network Access Control Implementation
+
 Designed network architecture implementing extended ACLs to restrict inter-device communication while maintaining selective service access.
 Technical Implementation:
 
