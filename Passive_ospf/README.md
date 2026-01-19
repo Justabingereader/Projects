@@ -1,2 +1,14 @@
-# Passive_ospf
-A multi router network ospf protocol model which simulates the connection of various cities across china and involves the communication of various end devices on different networks, a configured ID for each of the routers and a passive interface on the shanghai port that is connected to the hong kong which helps to reroute the network between hong kong and shanghai and control the network flow. 
+Dynamic Routing Protocol Configuration
+
+Configured OSPF routing protocol for multi-city network simulation with passive interface implementation.
+Technical Details:
+
+Router ID configuration for network devices
+
+Passive interface on Shanghai-Hong Kong connection
+
+Network flow control and rerouting capabilities
+
+Simulated geographically distributed network (China cities)
+
+Routing Protocol: OSPF with passive interface configuration
