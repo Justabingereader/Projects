@@ -1,36 +1,72 @@
-Secure Credential Storage System
+Password Manager CLI
 
-Technical Stack:
+Overview:
 
-Python with MySQL backend
+The Password Manager CLI is a command-line application designed to provide a safe and secure way to store passwords.
+Utilizing Python and MySQL, this application serves as a central repository for passwords that individuals or organizations
+wish to protect from unauthorized access. It adheres to best security standards and guidelines required by the cybersecurity domain.
 
-AES encryption via PyCryptodome
+Requirements:
 
-Master password authentication
+To run this application, ensure you have the following installed:
+Python
+MySQL setup on your computer
 
-Rich CLI interface
+You will need to install the following Python packages:
 
-Security Features:
+pip install rich
+pip install pycryptodome
+pip install mysql-connector-python
+pip install pyperclip
 
-Encrypted password storage in MySQL database
+Usage:
 
-Master password protection with confirmation
+Initial Setup
+Run the Configuration Script:
+Open Windows PowerShell and execute the following command to see the help options:
 
-Hidden password display in listings
+python config.py --help
 
-Clipboard integration for secure password copying
+Configuration Options:
+You will be presented with three options: make, delete, and remake. To set up the application for the first time, run:
 
-Duplicate entry prevention
+python config.py make
 
-Key Commands:
-bashpython config.py make          # Initial setup with master password
+Set Master Password:
+You will be prompted to create a master password. Make it as secure as possible and store it safely, as it will not be shown to you again.
+You will need to retype the password for confirmation.
 
-python pm.py add -s <site> -u <url> -e <email> -l <username>
+Database Creation:
+A database named pm will be created to store your passwords.
 
-python pm.py e                 # List all entries (passwords hidden)
+Adding a User
+To add a new password entry, run the following command:
 
-python pm.py e -s <entry>      # View specific entry
+python pm.py add -s sitename -u siteurl -e email -l username
+After executing this command, you will be prompted to enter your master password. Once entered,
+you will be asked to input the password you wish to store. After entering the password, press Enter to save it.
 
-python pm.py e -s <entry> --copy  # Copy password to clipboard
+Viewing Stored Passwords
+To view a list of all stored passwords, run:
 
-Use Case: Centralized credential management for individuals and organizations requiring secure password storage
+python pm.py e
+You will need to enter your master password to access the stored data. All passwords will be displayed as {hidden} for security.
+
+Error Handling
+If you attempt to add the same entry twice or run python config.py make after already configuring the application, you will receive appropriate error messages.
+
+Searching for Specific Entries
+To check for a specific password entry, use the following command:
+
+python pm.py e -s entryname
+You will be prompted to enter your master password to view the specific entry.
+
+Copying Passwords
+If you want to copy a password for personal use, run:
+
+python pm.py e -s entryname --copy
+After entering your master password, a message will confirm that your password has been copied to the clipboard.
+
+Conclusion
+This Password Manager CLI application provides a secure and user-friendly way to manage your passwords.
+By following the setup and usage instructions, you can ensure that your sensitive information is stored safely and accessed securely.
