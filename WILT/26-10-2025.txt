@@ -1,3 +1,0 @@
-WHAT I LEARNT TODAY: The benefits of both role-based compliance and prescriptive(checklist) compliance, their real world application and the difficulty of implementation due to real life diverse and specific threat scopes, how compliance framework is designed based on the industry and the specific requirements and sensitivity of that industry, the hybrid approach towards modern day compliance and real life examples of both risk based and checklist based compliance.
-
-Tags: #Compliance #RiskBasedCompliance #ChecklistCompliance #RoleBasedCompliance #PrescriptiveCompliance #HybridCompliance #InformationSecurity #RegulatoryFrameworks #CyberRiskManagement #Governance #IndustryStandards #SecurityCompliance #DataProtection #CybersecurityGovernance #ComplianceImplementation

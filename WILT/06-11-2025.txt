@@ -1,3 +1,0 @@
-WHAT I LEARNT TODAY: How to use Standard and Extended Access Control Lists to restrict and control permissible services between devices in a network like restricting one network device from being able to communicate with another device on the network while providing access to all other devices on the network, learnt why it would be essential to a network administrator and mastered how to connect routers between each other for communication through the rip protocol.
-
-Tags: #AccessControlLists #StandardACL #ExtendedACL #NetworkSecurity #TrafficFiltering #RouterConfiguration #RIPProtocol #RoutingBasics #CiscoNetworking #NetworkAdministration #PacketTracerLab #NetworkSegmentation #DeviceIsolation

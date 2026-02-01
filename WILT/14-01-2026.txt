@@ -1,3 +1,0 @@
-What I Learnt Today: learnt about hosts, clients and servers and their role in network communication, learnt about IP addressing subnetting, subnets. learnt about what a network is, what the internet is and its role in general network communication
-
-Tags: #NetworkFundamentals #ComputerNetworks #HostsClientsServers #ClientServerModel #IPAddressing #Subnetting #Subnets #NetworkingBasics #InternetArchitecture #NetworkCommunication #TCPIP #ITFoundations #CybersecurityFundamentals
